@@ -1,0 +1,395 @@
+commit 207ddb00c59eac8c54446c1e8efc962791bd262a
+Author: braedenm <braeden_moore@sfu.ca>
+Date:   Sat Aug 14 04:48:58 2021 +0000
+
+    Update README.md -- add info about restaurantsByCity.py
+
+commit 553169698584e88beacbd677dea5f6404b8c524c
+Author: mjzhou <mjzhou@sfu.ca>
+Date:   Sat Aug 14 03:04:27 2021 +0000
+
+    Upload New File
+
+commit e6629f84ee01054a19e7d350f1e02114f570e98d
+Author: mjzhou <mjzhou@sfu.ca>
+Date:   Sat Aug 14 03:04:19 2021 +0000
+
+    Upload New File
+
+commit 95a80bfe789d57da85cbd6db901d50de4d735ca5
+Author: mjzhou <mjzhou@sfu.ca>
+Date:   Sat Aug 14 03:04:13 2021 +0000
+
+    Upload New File
+
+commit 67275acc5b5185251918757cac716116788b96b7
+Author: mjzhou <mjzhou@sfu.ca>
+Date:   Sat Aug 14 03:04:05 2021 +0000
+
+    Upload New File
+
+commit 72a55618019c7224c73b75235655a85f464e3620
+Author: mjzhou <mjzhou@sfu.ca>
+Date:   Sat Aug 14 03:03:58 2021 +0000
+
+    Upload New File
+
+commit e799a895222ac105290d67753f7f39d21d56db7e
+Author: mjzhou <mjzhou@sfu.ca>
+Date:   Sat Aug 14 03:03:40 2021 +0000
+
+    Add screenshots directory
+
+commit f0377d79a839522e4605299465007b029a8795da
+Author: mjzhou <mjzhou@sfu.ca>
+Date:   Sat Aug 14 03:03:19 2021 +0000
+
+    Upload chains-analysis.py
+
+commit 28a2365870396262665dfedceb1e3996356aa659
+Merge: a29e625 8e0b84d
+Author: Benjamin Howard <benjamin_howard@sfu.ca>
+Date:   Sat Aug 14 02:55:40 2021 +0000
+
+    Merge branch '3-amenity-density' into 'master'
+    
+    3 Amenity Density
+    
+    Closes #3
+    
+    See merge request cmpt-353-group/353-prj!3
+
+commit 8e0b84d4e61488305237ba26ef2bdc97830855b8
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Fri Aug 13 19:44:34 2021 -0700
+
+    Add a comment to show where I got the longitude formula from.
+
+commit 0f452694ca8cbebda8cb1bba473ea4daa2a2a743
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Fri Aug 13 18:15:42 2021 -0700
+
+    Add info about Michael's code to the README.
+
+commit 83f97e783d01d838f00da1595596ef11792e11ee
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Fri Aug 13 17:30:17 2021 -0700
+
+    Update README.
+
+commit 2cdccfa7096a8ab2cc411b953d2de48f2be1282a
+Merge: ca0cfc8 a29e625
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Fri Aug 13 16:30:15 2021 -0700
+
+    Merge remote-tracking branch 'origin/master' into 3-amenity-density
+
+commit ca0cfc8139986db049911794795e5e4b03f6d5b9
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Fri Aug 13 16:24:27 2021 -0700
+
+    Relocate files into the root project folder (delete amenities).
+    
+    Add back in boundaries.csv. Add and remove comments in
+    best-amenities.ipynb.
+
+commit f32d100f6bbe27fa7d47aef0f3bcf74a11929928
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Fri Aug 13 15:49:36 2021 -0700
+
+    Delete unneeded files, add make-records.py, and modify notebook.
+    
+    Delete the following files: amenities-count.csv, boundaries.csv,
+    cities.csv, cities.py, code.py, relevant-amenities.csv.
+    Add make-records.py, which creates records.csv. Add code for
+    creating the boundaries DataFrame back into best-amenities.ipynb.
+
+commit 0506c4ad13413689636cf8b46c99bf451ec55598
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Fri Aug 13 14:54:54 2021 -0700
+
+    Remove 'developer mode only' overlay and add labels to squares.
+    
+    Squares now have markers on the map that show their placement
+    (e.g., first, second, third, etc.). Change N to be top 10. Clean up
+    code in best-amenities.ipynb.
+
+commit a29e62523dc08a71f2366211426886607b9b30fd
+Author: Braeden Moore <braeden.moore99@gmail.com>
+Date:   Fri Aug 13 14:30:22 2021 -0700
+
+    DO NOT drop chains with different names!
+
+commit 9816472314e6da020840de0423acecf2d806cdb8
+Merge: a15ed71 bb021b4
+Author: Benjamin Howard <benjamin_howard@sfu.ca>
+Date:   Fri Aug 13 20:21:47 2021 +0000
+
+    Merge branch 'clustering' into 'master'
+    
+    Data k-means clustered into neighbourhoods based on lat and lon. Cluster based...
+    
+    See merge request cmpt-353-group/353-prj!2
+
+commit 1c5c0527e0d131b298a942660b699891ba40a476
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Fri Aug 13 12:57:38 2021 -0700
+
+    Add function top_squares to show top squares by category on gmaps.
+    
+    Delete some code from best-amenities.ipynb since the data doesn't
+    have to be recomputed as it can be read from csv files--the code
+    to produce those csv files is in code.py (commented out).
+
+commit db40c9d20e74e395962ba62f270787ad8b1a373a
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Fri Aug 13 11:58:47 2021 -0700
+
+    Sort boxes by amenity relevance, per category, in code.py.
+    
+    Try running cities.py overnight but repeatedly timed out, so
+    cities.csv remains incomplete.
+
+commit bb021b4b6d3bfb6ce4ee71f8c718ee3e384c9041
+Author: Braeden Moore <braeden.moore99@gmail.com>
+Date:   Fri Aug 13 07:00:21 2021 -0700
+
+    Every data point is properly clustered based on coordinates and city. A chi-2 test was done which determined that the proportion of chains vs. non-chains DOES differ depending on the area / cluster
+
+commit 1a874477393f3891ec0c7fddd0e58cc9c4fc37f6
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Thu Aug 12 22:27:52 2021 -0700
+
+    Add cities.csv, cities.py, and relevant-amenities.csv.
+    
+    Add Braedan's code as cities.py. cities.csv only has 20 rows
+    (incomplete)--I'm running the real thing now.
+    relevant-amenities is exactly what it soundsl like (but with
+    certain columns not present, like tags). cities.csv is intended
+    to be a file with the records categorized by city *with* all the
+    relevant amenities (only).
+
+commit 52c8efee6950d016888c80cb3f0950b1d58e1355
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Thu Aug 12 19:17:39 2021 -0700
+
+    Update records.csv to have all info.
+    
+    records.csv now has all the box id's. Use groupby to sum the
+    relevance weights.
+
+commit 29f5049258075d9cfb49230f10a2cb3a099f230d
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Thu Aug 12 18:27:32 2021 -0700
+
+    Fix code to assign squares/boxes to records.
+    
+    Code added in previous commit does not work. Add records.csv,
+    which has the current code run on only first hundred records
+    (it was for testing purposes). Now I'm running the real deal.
+    Still slow as heck obviously. Problem with previous commit was
+    that it did NOTHING--the csv file did not have the desired
+    columns. Also, I have adopted a better approach. Instead of
+    adding the latitudes and longitudes to df, you just add a column
+    called box id, which corresponds to the id of an entry in the
+    boundaries df.
+
+commit cd312bfea323f06c2ae63b1325f61b4358aaaa88
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Thu Aug 12 17:13:27 2021 -0700
+
+    Add code.py, which tries to assign squares to the records.
+    
+    It's extremely slow. I put it in .py file so that I could have it
+    output it's progress as it goes. It will probably take about 40
+    minutes to run. Haven't reached the end yet.
+
+commit 02d3fd6525b83e4d20bff38e2247941749197ea0
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Thu Aug 12 15:40:54 2021 -0700
+
+    Start writing logic for assigning squares to df records.
+
+commit 7e2c5ade5e5527fd8f3ae7804e4ae51b479ff681
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Thu Aug 12 14:35:21 2021 -0700
+
+    Store longitudes in boundaries DF in lon1 and lon2 columns.
+    
+    Longitudes no longer stored in a single column as Python lists.
+    Add boundaries.csv (no relevance sums yet). Will probably delete
+    the csv file in the future.
+
+commit 97835d86aff41cef2ea08425815223735c573ddc
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Thu Aug 12 13:33:43 2021 -0700
+
+    Create the boundaries DataFrame.
+    
+    Write pseudocode for summing the relevance weights for each square
+    in the grid. Remove sample square drawing on map.
+
+commit 537a2f75d46b5ded57b15f047bdcd9225ffafb51
+Author: Braeden Moore <braeden.moore99@gmail.com>
+Date:   Thu Aug 12 08:11:35 2021 -0700
+
+    Data k-means clustered into neighbourhoods based on lat and lon. Cluster based on city too if I can get geolocator to work
+
+commit a15ed71ebce6ec02efd9554be78109e28e07086d
+Merge: 52036ef 6bf66bb
+Author: mjzhou <mjzhou@sfu.ca>
+Date:   Thu Aug 12 05:12:29 2021 +0000
+
+    Merge branch '1-best-amenities-nearby' into 'master'
+    
+    1 Best Amenities Nearby
+    
+    Closes #1
+    
+    See merge request cmpt-353-group/353-prj!1
+
+commit 52036ef7fed46a6bd1ee619575974f2968c1bcbd
+Author: Michael <mjzhou@sfu.ca>
+Date:   Wed Aug 11 19:28:59 2021 -0700
+
+    incorporated fuzzywuzzy and changed csv output
+
+commit 427d280a79dcac82cc210009c167849673c2d655
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Mon Aug 9 18:14:19 2021 -0700
+
+    Draw the entire grid of 1 km^2 squares on gmaps.
+    
+    Haven't tested if the boxes are all 1 km^2, but the grid looks
+    as expected.
+
+commit 65bf6f227667e98de630688ae5e97247414742e7
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Mon Aug 9 17:01:35 2021 -0700
+
+    Create the 2D array of evenly spaced longitudes, lon_bins.
+    
+    (Might want to rename to lon_markers? Or maybe lon_boundaries.)
+
+commit e4048f4a97d3f76690509b3e6d230432649b2702
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Mon Aug 9 15:30:08 2021 -0700
+
+    Calculate max number of longitude bins needed to make grids.
+    
+    (Dividers would be more descriptive than bins probably.) Add
+    lon_arc_length() function--not tested.
+
+commit e39f97231634c1dac6839c08f766ebf3e6363f63
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Mon Aug 9 14:53:39 2021 -0700
+
+    Create the lat_bins Series.
+    
+    This Series will be used to create a grid of 1 km^2 squares on the
+    map. lat_bins holds equally spaced latitudes, each a km apart.
+
+commit 9187e16aca38eb82cb1c170e7a87df69508dec97
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Sat Aug 7 15:11:38 2021 -0700
+
+    Add comments related to calculating distances with lat and lon.
+
+commit 6bf66bbf831ec1e2ffdb2fb5bd5ef011730a9313
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Sat Aug 7 13:30:52 2021 -0700
+
+    Rename code folder to ggbaker-code.
+
+commit f86ce77b67337ea6d6fb6957a85df586a41244e7
+Merge: 74b9430 4ab5da4
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Sat Aug 7 13:17:53 2021 -0700
+
+    Merge branch 'master' into 1-best-amenities-nearby
+
+commit 74b9430f0f6d0517db95be0bd2df23e81e269c8c
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Fri Aug 6 20:36:44 2021 -0700
+
+    Move files, update README, and refactor best-amenities.ipynb.
+    
+    Delete code.py and amenity_relevance.csv. Move best amenities
+    stuff into amenities folder. Add heatmap for 'other'.
+
+commit 32ffb67e4b6b3d2f924c6a306d81195f093d93a5
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Fri Aug 6 19:33:53 2021 -0700
+
+    Improve heatmap configuration.
+    
+    Can now tell difference between food heatmap and others. Adjust
+    max_intensity, point_radius, and the values assigned in
+    evaluate_amenity() (increase them if relevant).
+
+commit 52d78f81dcbc78c10f1db61d8285c461e4245779
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Fri Aug 6 18:41:03 2021 -0700
+
+    Make heatmaps of amenities.
+    
+    Use gmaps to make three heatmaps of the amenities, each based on
+    a category (shopping, food, or activity). Add aforementioned code
+    to a new Jupyter notebook, best_amenities.ipynb, taking most of
+    the code from code.py with it. Heatmaps work, but not as desired,
+    as there appears to be no difference between the three maps.
+
+commit b955cbe6909ba989d1f98ff6bc4e65b36c117b0c
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Wed Aug 4 18:00:02 2021 -0700
+
+    Fix evaluate_amenity and add more entries to categories.
+    
+    Add amenity-relevance.csv. Not sure if will keep file, but it
+    simply has the dataframe with the extra column, relevance, that
+    has the numerical rating applied by evaluate_amenity.
+
+commit 0077e6918d0215b946fd51780e9141488c774c00
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Wed Aug 4 17:11:18 2021 -0700
+
+    Add functionality for evaluating amenity based on its category.
+    
+    Add a dictionary, categories, that tells you which category an
+    amenity belongs to: food, shopping, or activity.
+    Write evaluate_amenity(). It returns a number signifying its
+    importance, given a particular category. Haven't fully tested.
+
+commit 4ab5da4c9051b23b36743ebf44e01610b7c6c75c
+Author: mjzhou <mjzhou@sfu.ca>
+Date:   Thu Jul 22 20:09:34 2021 -0700
+
+    chain restaurants vs non-chain restaurants plotting with jupyter
+
+commit e25a5e8633f190b2ecef2691e53522d832a116ac
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Thu Jul 22 18:02:35 2021 -0700
+
+    Refactor code.py and remove dead code.
+
+commit 7ec6d78c3d77b970aa28b2d3facce9ca18108839
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Thu Jul 22 17:40:47 2021 -0700
+
+    Add amenities-vancouver.json.gz, code.py, and amenities-count.csv.
+    
+    Code.py, so far, simply reads the JSON file and creates
+    amenities-count.csv out of it. The CSV file is a list of all the
+    amenities, and how many times a given amenity occurs in the data.
+
+commit ac26aeb2e1a321fd06d52b02dc499f8e4d184cfa
+Author: Benjamin Howard <bwhoward@sfu.ca>
+Date:   Thu Jul 22 16:07:30 2021 -0700
+
+    Add .gitignore and update README.md.
+
+commit e9ad0e34e9f6ae5dfd5e7a7e1ee6cd287829c9ef
+Author: Benjamin Howard <benjamin_howard@sfu.ca>
+Date:   Sun Jul 11 01:23:47 2021 +0000
+
+    Initial commit
